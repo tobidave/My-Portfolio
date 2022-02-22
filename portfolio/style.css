@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabs .indicator{
+    background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+body{
+    background-color: #224ac3;
+    position: relative;
+    align-items: center;
+}
