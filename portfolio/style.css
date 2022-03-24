@@ -30,6 +30,7 @@ height: 10vh;
 }
 .heroheader2{
     height: 90vh;
+    background-image: url(./bgimg.jpg);
 }
 .heroheader3{
     height: 30vh;
@@ -41,12 +42,18 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Mochiy Pop One', sans-serif;
     font-weight: 100;
 }
+section>div{
+    height: 80vh;
 
+}
 .heroname{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
 }
 .redu{
     font-size: 19px;
+}
+span{
+    color: #42a5f5;
 }
 
