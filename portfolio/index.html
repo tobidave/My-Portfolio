@@ -7,7 +7,9 @@
     <link href="./css/all.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Mochiy+Pop+One&family=Palette+Mosaic&family=Poppins:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>OT | Personal Portfolio</title>
 </head>
@@ -15,21 +17,23 @@
 
 
 
-    <nav id="home" class="blue-grey scrollspy">
+    <nav id="home" class="grey darken-3 scrollspy">
         <div class="nav-wrapper container" >
           <a href="#" class="brand-logo"> OT </a>
           <a href="#" class="sidenav-trigger" data-target="mobile-menu">
             <i class="material-icons">menu</i>
         </a>
+        <div class="heroheader1">
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li class=""><a href="#about">About Me</a></li>
+            <li class=""><a href="#services">Services</a></li>
+            <li class=""><a href="#contact">Contact Me</a></li>
           </ul>
+        </div>
           <ul class="sidenav grey lighten-2" id="mobile-menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li class=""><a href="#about">About Me</a></li>
+            <li class=""><a href="#services">Services</a></li>
+            <li class=""><a href="#contact">Contact Me</a></li>
         </ul>
         </div>
       </nav>
@@ -37,27 +41,31 @@
       
 
 
-    <section class="container section">
+    <section class="heroheader2 grey darken-2 ">
         <div class="row">
-            <div class="center col s12 l6">
-                <img src="./upworktobi.jpg" alt="" class="responsive-img center">
+            <div class="col s12 l6">
+                <img src="" alt="" class="responsive-img">
                 <div class="">
                    <a href="https://github.com/johncovenant"> <i class="fas fa-instagram fa-4x "></i></a>
                 </div>
             </div>
             <div class="col s12 l4">
-                <h1>
-                    HELLO, <i>I AM</i>....
-                    Ogunnowo Oluwatobi David
-              </h1>
+                <div>
+                    <p>Hello, my name is</p>
+                    <p class="heroname">
+                     OGUNNOWO <span class="purple lighten-1"> OLUWATOBI</span>  
+                    </p>
+                  <p>i'am a Web Developer</p>
+                </div>
             </div>
+            
         </div>
     </section>
-    <section class="grey section-glass scrollspy" id="about">
+    <section class="heroheader3 grey section-glass scrollspy" id="about">
         <div class="container section scrollspy" id="">
             <div class="row">
                 <div class="col s12">
-                    <h4>About Me</h4>
+                    <h4 class="">About Me</h4>
                     <p>Ogunnowo oluwatobi david is a web developer whith diffrient skills and 
                        certification in HTML CSS Javascript PHP database version controle(Git, Git Hub) 
                     </p>
@@ -65,10 +73,10 @@
                 </div>
             </div>
     </section>
-    <section class="container section scrollspy" id="services">
+    <section class="heroheader4 container section scrollspy" id="services">
         <div class="row">
             <div class="col s12 l4">
-                <h4 class="indigo-text text-darken-3">What I Do.......</h2>
+                <h4 class=" indigo-text text-darken-3">What I Do.......</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                    Enim accusamus deleniti esse natus ipsam non corporis maiores
                    soluta nisi dolorum eius consequatur, fuga quasi, quis unde 
@@ -84,27 +92,31 @@
                     </li>
                 </ul>
                 <div class="col s12" id="fed">
-                    <p class="flow-text grey-text text-darken-4">Front-End Developer </p>
-                    <p class="flow-text yellow-text text-darken-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Enim accusamus deleniti esse natus ipsam non corporis maiores
-                        soluta nisi dolorum eius consequatur, fuga quasi, quis unde 
-                        beatae perferendis dolore magnam!
+                    <h5 class="flow-text grey-text text-darken-4">Front-End Developer </h5>
+                    <p class="redu flow-text yellow-text text-darken-4">I am a well certified Expert-levle web Front end developer with 
+                        various skills and certifications from more than three verified certification agency staging from freecode camp , sololearn, and Udemy etc.
+                        <li> HTML </li>
+                        <li>CSS</li>
+                        <li> Web3</li>
+                        <li>JavaScript</li>
+                        <li>django</li>
+                        <li>React</li>
+                        <li>Phyton</li>
                     </p>
                 </div>
                 <div class="col s12" id="bed">
-                    <p class="flow-text grey-text text-darken-4"> Back-End Developer </p>
-                    <p class="flow-text yellow-text text-darken-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Enim accusamus deleniti esse natus ipsam non corporis maiores
-                        soluta nisi dolorum eius consequatur, fuga quasi, quis unde 
-                        beatae perferendis dolore magnam!
+                    <h5 class="flow-text grey-text text-darken-4"> Back-End Developer </h5>
+                    <p class="flow-text yellow-text text-darken-1">from my front end skills
+                        i am more aquinted whith 
                     </p>
                 </div>
 
             </div>
         </div>
     </section> 
+    <hr>
     <section class="scrollspy" id="contact">
-       <h4>Contact me </h4>
+       <h4 class="">Contact me </h4>
 
        <button class="right">
            <a href="#home">

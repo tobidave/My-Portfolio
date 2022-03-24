@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .section>.row>.container{
+    -webkit-transition: all 30s linear;
+-moz-transition: all 30s linear;
+-ms-transition: all 30s linear;
+-o-transition: all 30s linear;
+transition: all 30s linear;font-family: 'Dosis', sans-serif;
+font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+} */
 .tabs .indicator{
     background-color: #1a237e;
 }
@@ -12,4 +21,32 @@
 body{
     position: relative;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    list-style: none;
 }
+.heroheader1{
+height: 10vh;
+}
+.heroheader2{
+    height: 90vh;
+}
+.heroheader3{
+    height: 30vh;
+}
+.heroheader4{
+    height: 70vh;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 100;
+}
+
+.heroname{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+.redu{
+    font-size: 19px;
+}
+
