@@ -30,7 +30,10 @@ height: 10vh;
 }
 .heroheader2{
     height: 90vh;
+    width: 100%;
     background-image: url(./bgimg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .heroheader3{
     height: 30vh;
